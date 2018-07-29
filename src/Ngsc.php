@@ -67,7 +67,7 @@ class Ngsc {
      */
     public function getOneState($state)
     {
-        $this->setResponse("/state/{$state}");
+        $this->setResponse("/states/{$state}");
 
         return $this->data();
     }
@@ -79,7 +79,7 @@ class Ngsc {
      */
     public function getLGAS($state)
     {
-        $this->setResponse("/state/{$state}/lgas");
+        $this->setResponse("/states/{$state}/lgas");
 
         return $this->data();
     }
@@ -91,7 +91,7 @@ class Ngsc {
      */
     public function getCities($state)
     {
-        $this->setResponse("/state/{$state}/cities");
+        $this->setResponse("/states/{$state}/cities");
 
         return $this->data();
     }
