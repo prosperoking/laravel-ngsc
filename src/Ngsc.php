@@ -23,7 +23,7 @@ class Ngsc {
      * Source: http://states-cities.devcenter.co/
      * @var string
      */
-    protected $baseUrl = 'http://states-cities.devcenter.co/api/v1';
+    protected $baseUrl = 'http://locationsng-api.herokuapp.com/api/v1';
 
     public function __construct()
     {
